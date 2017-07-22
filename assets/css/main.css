@@ -1,0 +1,233 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #60606e;
+}
+
+a {
+  text-decoration: none;
+  color: #60606e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  /*max-width: 1200px;*/
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*HEADER*/
+
+.header {
+  height: 500px;
+  padding: 43px 0 0;
+  background: url('../img/Photo-Filter.jpg') 50% 0% no-repeat;
+  background-size: cover;
+}
+
+.header__nav {
+  position: relative;
+  padding: 0 15px;
+}
+
+.header__nav::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.header__logo {
+  float: left;
+  display: inline-block;
+}
+
+.header__logo-text {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 15px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.toggle-menu {
+  width: 31px;
+  height: 15px;
+  float: right;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.toggle-menu__bar {
+  display: block;
+  height: 1px;
+  background: #60606e;
+  transition: width 0.5s ease;
+}
+
+/*.toggle__menu-bar + .toggle__menu-bar {
+  padding-top: 6px;
+}*/
+
+.toggle-menu__bar:nth-child(2) {
+  width: 15px;
+  margin-top: 6px;
+}
+
+.toggle-menu__bar:nth-child(3) {
+  width: 23px;
+  margin-top: 6px;
+}
+
+.toggle-menu:hover .toggle-menu__bar {
+  width: 100%;
+}
+
+.header__title {
+  margin: 200px auto 0;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 45px; /*25+9+9*/
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header__crumbs {
+  margin-top: 19px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.header__crumb {
+  font-size: 13px;
+}
+
+/*MAIN CONTENT*/
+
+.content__section {
+  padding-top: 140px;
+}
+
+.info {
+text-align: left;
+padding: 0 15px;
+}
+
+.row, .col-md-6, .col-md-8 {
+  padding: 0;
+  margin: 0;
+  /*for PixelPerfect*/
+}
+
+.info--center {
+text-align: center;
+}
+
+.info__title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+.info--center .info__title {
+  padding-top: 9px;
+  /*for PixelPerfect*/
+}
+
+.info__title-text {
+  position: relative;
+  display: inline-block;
+}
+
+.info__title-text::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+  width: 67px;
+  height: 21px;
+  background-color: #7beec7;
+}
+
+.info__subtitle {
+  margin: 20px 0 0;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 11px;
+  text-transform: uppercase;
+}
+
+.info__text {
+margin: 22px 0 0;
+line-height:30px;
+}
+
+.info--center .info__text {
+  margin-top: 13px;
+  line-height: 24px;
+}
+
+/*BENEFITS*/
+
+.benefits {
+  list-style: none;
+  padding: 0;
+  margin: 66px 0 0;
+  /*for PixelPerfect*/
+}
+
+.benefits__item {
+  margin-top: 16px;
+  /*for PixelPerfect*/
+  padding: 15px;
+}
+
+.benefit__header {
+  font-size: 0;
+}
+
+.benefit__icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  background-color: #7beec7;
+}
+
+.benefit__title {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 19px;
+  /*for PixelPerfect*/
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.benefit__text {
+    line-height: 30px;
+    margin: 11px 0 0;
+    /*for PixelPerfect*/
+}
+
+/*DREAM TEAM*/
