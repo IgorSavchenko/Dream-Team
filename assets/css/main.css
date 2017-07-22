@@ -231,3 +231,24 @@ line-height:30px;
 }
 
 /*DREAM TEAM*/
+
+
+
+/*GALERY*/
+
+.galery {
+  list-style: none;
+}
+
+.galery__link {
+  display: block;
+}
+
+.galery__item {
+  padding: 15px;
+}
+
+.galery__image {
+  width: 262px;
+  height: 335px;
+}
