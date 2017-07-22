@@ -234,21 +234,21 @@ line-height:30px;
 
 
 
-/*GALERY*/
+/*gallery*/
 
-.galery {
+.gallery {
   list-style: none;
 }
 
-.galery__link {
+.gallery__link {
   display: block;
 }
 
-.galery__item {
+.gallery__item {
   padding: 15px;
 }
 
-.galery__image {
+.gallery__image {
   width: 262px;
   height: 335px;
 }
