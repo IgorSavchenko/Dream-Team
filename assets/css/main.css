@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.row, .col-md-6, .col-md-8, .col-md-4 {
+.row, [class*="col-"] {
   padding: 0;
   margin: 0;
   /*for PixelPerfect*/
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .info {
-text-align: left;
+/*text-align: left;*/
 padding: 0 15px;
 }
 
