@@ -343,6 +343,7 @@ line-height:30px;
 }
 
 .gallery__link:hover {
+  box-shadow: 1px 1px 5px 0 rgb(96, 96, 110);
   transform: scale(1.05);
 }
 
